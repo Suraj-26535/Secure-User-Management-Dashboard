@@ -12,7 +12,7 @@ export default function SignUnPage() {
         console.log(response.token)
         login({ email, token: response.token });
       } else {
-        console.log('Invalid credentials. Please try again.');
+        alert('Invalid credentials. Please try again.');
       }
     } 
     return (
